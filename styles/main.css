@@ -155,13 +155,16 @@ h1.title {
   padding: 1em;
   border-radius: 1.5em;
   border: none;
+  background-color: var(--Dark-gray-blue);
+  color: var(--White);
+  /* background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue)); */
+  /* outline: n; */
+}
+.summary-section button:hover {
   background-image: radial-gradient(
     var(--Light-royal-blue),
     var(--Light-slate-blue)
   );
-  color: var(--White);
-  /* background-image: linear-gradient(var(--Violet-blue), var(--Persian-blue)); */
-  /* outline: n; */
 }
 .summary-item h3 {
   font-weight: 500;
